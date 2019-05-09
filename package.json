@@ -1,5 +1,48 @@
 {
   "name": "ddm_2",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "fontawesome": "^5.6.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-onclickoutside": "^6.7.1",
+    "react-redux": "^6.0.0",
+    "react-responsive": "^6.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonahlipsky/dhamma_dhara_maintenance_2.git"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "author": "Jonah Lipsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonahlipsky/dhamma_dhara_maintenance_2/issues"
+  },
+  "homepage": "https://github.com/jonahlipsky/dhamma_dhara_maintenance_2#readme"
 }
