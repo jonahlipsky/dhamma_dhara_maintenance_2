@@ -30,6 +30,10 @@
     "type": "git",
     "url": "git+https://github.com/jonahlipsky/dhamma_dhara_maintenance_2.git"
   },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.7.0"
+  },
   "devDependencies": {
     "redux-logger": "^3.0.6",
     "@babel/core": "^7.2.2",

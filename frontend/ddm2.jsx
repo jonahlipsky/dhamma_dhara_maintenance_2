@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './components/root';
 import configuredStore from './store/store';
+debugger
 
 document.addEventListener('DOMContentLoaded', () => {
   // let store;
@@ -17,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // } else {
   let store = configuredStore();
   // }
-
 
   debugger
   const root = document.getElementById('root');
